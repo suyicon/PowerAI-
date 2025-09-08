@@ -384,11 +384,11 @@ export default function Dashboard() {
                         className="flex items-center px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition duration-150">
                         <i className="fa-solid fa-sync-alt mr-2"></i>刷新数据
                                                           </button>
-                    <button
+                    {/* <button
                         onClick={() => toast.info("报表已生成并发送到您的邮箱")}
                         className="flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg text-sm transition duration-150">
                         <i className="fa-solid fa-file-export mr-2"></i>导出报表
-                                                          </button>
+                                                          </button> */}
                 </div>
             </div>
             {}
@@ -645,7 +645,7 @@ export default function Dashboard() {
             {}
             <div className="mt-6">
                 <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-lg font-semibold text-gray-900">瓦特同学</h2>
+                    <h2 className="text-lg font-semibold text-gray-900">电力系统智能分析</h2>
                 </div>
                 <div className="h-[500px]">
                     <AIExpertChat />

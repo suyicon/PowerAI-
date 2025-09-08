@@ -24,7 +24,7 @@ export default function Navbar({ toggleSidebar }: NavbarProps) {
             <div className="w-8 h-8 bg-blue-600 rounded-md flex items-center justify-center mr-2">
               <i className="fa-solid fa-bolt text-white"></i>
             </div>
-            <span className="text-lg font-semibold text-gray-900 hidden sm:inline">电网设备管理系统</span>
+            <span className="text-lg font-semibold text-gray-900 hidden sm:inline">漠阳电网信息中心</span>
           </Link>
         </div>
 

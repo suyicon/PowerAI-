@@ -38,7 +38,7 @@ export default function Sidebar() {
         <div className="w-8 h-8 bg-blue-600 rounded-md flex items-center justify-center mr-2">
           <i className="fa-solid fa-bolt text-white"></i>
         </div>
-        <span className="text-lg font-semibold text-gray-900">电网设备管理</span>
+        <span className="text-lg font-semibold text-gray-900">系统导航栏</span>
       </div>
 
       {/* Navigation */}
